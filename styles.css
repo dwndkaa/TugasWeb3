@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eef2f3; /* Latar belakang lebih halus */
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 400px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Efek bayangan yang lebih halus */
+    transition: transform 0.3s; /* Efek transisi untuk animasi */
+}
+
+.container:hover {
+    transform: translateY(-5px); /* Efek hover untuk sedikit mengangkat */
+}
+
+h1 {
+    color: #003366; /* Warna biru gelap untuk judul */
+    font-size: 24px;
+    margin-bottom: 20px; /* Jarak bawah yang lebih besar */
+}
+
+h2 {
+    color: #004080; /* Warna biru yang lebih lembut untuk sub-judul */
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold; /* Membuat label lebih menonjol */
+    color: #00509E; /* Warna biru untuk label */
+}
+
+input {
+    width: 100%;
+    padding: 10px; /* Padding yang lebih besar untuk kenyamanan */
+    margin-bottom: 15px; /* Jarak bawah yang lebih besar */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px; /* Ukuran font yang lebih besar */
+}
+
+button {
+    width: 100%;
+    padding: 12px; /* Padding yang lebih besar untuk tombol */
+    background-color: #007BFF; /* Warna biru untuk tombol */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px; /* Ukuran font tombol yang lebih besar */
+    transition: background-color 0.3s; /* Efek transisi untuk tombol */
+}
+
+button:hover {
+    background-color: #0056b3; /* Warna biru gelap saat hover */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Efek bayangan saat hover */
+}
